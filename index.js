@@ -9,7 +9,7 @@ const PORT = 4000;
 const IP_ADDRESS = '10.2.122.241'
 
 // Configure OpenAI API
-// const openaiApiKey = 'sk-proj-oR9dpxKiiTHyikWoGfEhT3BlbkFJdUhxP0bdMt6oClfo48qM';
+
 const openaiApiKey = process.env.secretKey;
 
 const openaiClient = new openai.OpenAI({ apiKey: openaiApiKey });
