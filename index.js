@@ -10,7 +10,7 @@ const IP_ADDRESS = '10.2.122.241'
 
 // Configure OpenAI API
 
-const openaiApiKey = process.env.secretKey;
+const openaiApiKey = process.env.SECRET_KEY;
 
 const openaiClient = new openai.OpenAI({ apiKey: openaiApiKey });
 
